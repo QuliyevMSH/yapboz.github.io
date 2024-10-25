@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapboz Oyunu</title>
+    <link rel="icon" href="./images/Logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mobileWarning" class="warning" style="display: none;">Zəhmət olmasa kompüter ilə giriş edin.</div>
+    <div class="container">
+        <div class="gameHead">
+            <h1>Yapboz Oyunu</h1>
+            <div class="controls">
+                <div class="levels">
+                    <label for="difficulty">Oyun Səviyyəsi:</label>
+                    <select id="difficulty">
+                        <option value="3">Asan (3x3)</option>
+                        <option value="5">Orta (5x5)</option>
+                        <option value="8">Çətin (8x8)</option>
+                    </select>
+                </div>
+                <div class="photoupload">
+                    <label for="imageUpload">Şəkil yükləyin:</label>
+                    <input type="file" id="imageUpload" accept="image/*">
+                </div>
+                <button id="startGame" style="display: none;">Oyuna Başla</button>
+            </div>
+        </div>
+        <div id="puzzleContainer"></div>
+    </div>
+    <audio id="gameMusic" loop></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
