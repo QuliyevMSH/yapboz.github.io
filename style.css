@@ -75,11 +75,11 @@ body .container .gameHead .controls .levels #difficulty {
 
 body .container .gameHead .controls .photoupload {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 body .container .gameHead .controls .photoupload #imageUpload {
-  width: 180px;
+  width: 200px;
   height: 25px;
   background-color: #ece7d1;
   border: none;
